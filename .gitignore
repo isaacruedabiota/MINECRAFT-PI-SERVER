@@ -1,0 +1,30 @@
+# Mods descargados: los baja download_mods.py desde Modrinth, no se redistribuyen
+mods/
+mods-*/
+*.jar
+*.zip
+
+# Ficheros que genera el servidor al arrancar
+world/
+world_nether/
+world_the_end/
+logs/
+backups/
+crash-reports/
+eula.txt
+ops.json
+whitelist.json
+usercache.json
+usernamecache.json
+banned-players.json
+banned-ips.json
+session.lock
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
